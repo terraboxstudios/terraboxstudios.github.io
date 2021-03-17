@@ -1,0 +1,12 @@
+.navbar-brand {
+    width: 0
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
