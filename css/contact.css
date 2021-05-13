@@ -1,0 +1,39 @@
+.contact-form-input {
+    padding: 0.6vh;
+    color: #2e2727;
+    background: #ccd3d9;
+    border-radius: 0.5vh;
+    font-size: 16px;
+    border: 0;
+    margin: 1.3vh;
+    text-decoration: none;
+    width: 300px;
+    transition: ease-in-out, width .25s ease-in-out;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+    width: 310px;
+}
+
+.contact-send-button {
+    margin-top: 4vh;
+    transition: ease-in-out, .15s ease-in-out;
+}
+
+.contact-send-button:hover {
+    width: 310px;
+}
+
+.contact-send-button:focus {
+    filter: brightness(80%);
+}
+
+.contact-message {
+    min-height: 20vh;
+    max-height: 45vh;
+}
+
+form {
+    padding-top: 4vh;
+}
