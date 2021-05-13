@@ -10,3 +10,15 @@
     margin-right: 3vw;
     margin-left: 3vw;
 }
+
+.navbar {
+    background-color: #d14806;
+}
+
+html body {
+    background-color: #2e2727;
+}
+
+.light {
+    color: #ccd3d9
+}
