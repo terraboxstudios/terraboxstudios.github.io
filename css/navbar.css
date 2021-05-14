@@ -1,14 +1,23 @@
-.navbar-brand {
-    width: 0
+#logo_svg {
+    width: 140px;
+    margin: 0px 10px;
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
+.nav-link {
+    font-size: 20px;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 
-.navbar-nav .nav-link {
-    margin-right: 3vw;
-    margin-left: 3vw;
+.nav-link:hover {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-nav {
+        justify-content: center;
+        padding-right: 160px;
+    }
 }
 
 .navbar {
@@ -21,4 +30,8 @@ html body {
 
 .light {
     color: #ccd3d9
+}
+
+* {
+    font-family: brandon-grotesque, sans-serif;
 }
