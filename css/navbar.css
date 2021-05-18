@@ -1,4 +1,4 @@
-#logo_svg {
+#logo-svg {
     width: 140px;
     margin: 0px 10px;
 }
@@ -7,11 +7,7 @@
     font-size: 20px;
     margin-right: 5vw;
     margin-left: 5vw;
-    color: #ccd3d9
-}
-
-.nav-link .active {
-    color: #ffffff
+    color: #ccd3d9;
 }
 
 .nav-link:hover {
@@ -35,7 +31,7 @@ html body {
 }
 
 .light {
-    color: #ccd3d9
+    color: #ccd3d9;
 }
 
 * {
