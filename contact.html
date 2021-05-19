@@ -28,21 +28,50 @@
             </div>
         </nav>
     	<div class="container-fluid text-center light">
-			<form id="contact-form" action="https://formspree.io/f/xqkwpzjv" method="POST">
-				<label>
-					<input class="contact-form-input" type="name" name="name" placeholder="Name" required>
-				</label>
-				<br>
-				<label>
-					<input class="contact-form-input" type="email" name="_replyto" placeholder="Email" required>
-				</label>
-				<br>
-				<label>
-					<textarea class="contact-form-input contact-message" name="message" placeholder="Message" required></textarea>
-				</label>
-				<br>
-				<button class="g-recaptcha contact-form-input contact-send-button" data-sitekey="6LeMss4aAAAAAHKv3RX3Ci9HG86Fx_fePVYfkjuH" data-callback='onSubmit' data-action='submit'>Send</button>
-			</form>
+			<div class="split left">
+				<div class="centered-left">
+					<h1 style="text-align: right">Get in touch</h1>
+					<p class="right-text">
+						At Terrabox Studios, we believe communication is key to achieving customer satisfaction.
+					</p>
+					<p class="left-text">
+						<br>
+						Feel free to get in touch if you have...
+						<ul class="contact-reasons">
+							<li class="left-text">
+								An idea for a piece of software you would like us to develop.
+							</li>
+							<br>
+							<li class="left-text">
+								A question about one of our products.
+							</li>
+							<br>
+							<li class="left-text">
+								A question about Terrabox Studios.
+							</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+			<div class="split right">
+				<div class="centered-right">
+					<form id="contact-form" action="https://formspree.io/f/xqkwpzjv" method="POST">
+						<label>
+							<input class="contact-form-input" type="name" name="name" placeholder="Name" required>
+						</label>
+						<br>
+						<label>
+							<input class="contact-form-input" type="email" name="_replyto" placeholder="Email" required>
+						</label>
+						<br>
+						<label>
+							<textarea class="contact-form-input contact-message" name="message" placeholder="Message" required></textarea>
+						</label>
+						<br>
+						<button class="g-recaptcha contact-form-input contact-send-button" data-sitekey="6LeMss4aAAAAAHKv3RX3Ci9HG86Fx_fePVYfkjuH" data-callback='onSubmit' data-action='submit'>Send</button>
+					</form>
+				</div>
+			</div>
     	</div>
 		<script>
 		function onSubmit(token) {

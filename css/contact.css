@@ -34,6 +34,50 @@ textarea:focus, input:focus {
     max-height: 45vh;
 }
 
-form {
-    padding-top: 4vh;
+.right-text {
+    font-size: 20px;
+    text-align: right;
+}
+
+.left-text {
+    font-size: 20px;
+    text-align: left;
+}
+
+.contact-reasons {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.split {
+    height: 80%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.centered-left {
+    position: absolute;
+    top: 50%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+}
+
+.centered-right {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
