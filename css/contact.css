@@ -3,17 +3,17 @@
     color: #2e2727;
     background: #ccd3d9;
     border-radius: 0.5vh;
-    font-size: 16px;
+    font-size: 18px;
     border: 0;
-    margin: 1.3vh;
+    margin: 1.2vh;
     text-decoration: none;
-    width: 300px;
-    transition: ease-in-out, width .25s ease-in-out;
+    width: 16vw;
+    transition: ease-in-out, .25s ease-in-out;
 }
 
 textarea:focus, input:focus {
     outline: none;
-    width: 310px;
+    opacity: 80%;
 }
 
 .contact-send-button {
@@ -22,11 +22,11 @@ textarea:focus, input:focus {
 }
 
 .contact-send-button:hover {
-    width: 310px;
+    opacity: 80%;
 }
 
 .contact-send-button:focus {
-    filter: brightness(80%);
+    opacity: 80%;
 }
 
 .contact-message {
@@ -50,34 +50,73 @@ textarea:focus, input:focus {
 }
 
 .split {
-    height: 80%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
-    padding-top: 20px;
+    width: 100%;
+    padding-top: 9%;
 }
 
 .left {
-    left: 0;
+    float: left;
+    width: 50%;
 }
 
 .right {
-    right: 0;
+    float: right; 
+    width: 50%;
 }
 
 .centered-left {
-    position: absolute;
-    top: 50%;
-    left: 81%;
-    transform: translate(-50%, -50%);
-    width: 35%;
+    width: 35.5%;
+    transform: translate(170%, 0%);
 }
 
 .centered-right {
-    position: absolute;
-    top: 50%;
-    left: 17%;
-    transform: translate(-50%, -50%);
-    width: 100%;
+    transform: translate(-10%);
+    width: 50%;
+}
+
+.grecaptcha-badge {
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1297px) and (min-width: 992px) {
+    .centered-left {
+        width: 40%;
+        transform: translate(137%, 0%);
+    }
+    
+    .centered-right {
+        transform: translate(5%);
+        width: 45%;
+    }
+
+    .contact-form-input {
+        width: 20vw;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .left {
+        float: none;
+        width: 100%;
+    }
+
+    .right {
+        float: none;
+        width: 100%;
+    }
+
+    .centered-left {
+        width: 50%;
+        transform: translate(50%, 0%);
+    }
+    
+    .centered-right {
+        transform: translate(2200%);
+        width: 1%;
+        padding-bottom: 5%;
+    }
+    
+    .contact-form-input {
+        width: 50vw;
+    }
 }
