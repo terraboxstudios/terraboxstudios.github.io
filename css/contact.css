@@ -13,7 +13,6 @@
 
 textarea:focus, input:focus {
     outline: none;
-    opacity: 80%;
 }
 
 .contact-send-button {
