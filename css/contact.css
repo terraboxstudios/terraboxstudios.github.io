@@ -105,17 +105,17 @@ textarea:focus, input:focus {
     }
 
     .centered-left {
-        width: 50%;
-        transform: translate(50%, 0%);
+        width: 70%;
+        transform: translate(20%, 0%);
     }
     
     .centered-right {
-        transform: translate(2200%);
+        transform: translate(1000%);
         width: 1%;
         padding-bottom: 5%;
     }
     
     .contact-form-input {
-        width: 50vw;
+        width: 75vw;
     }
 }
