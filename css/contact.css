@@ -17,6 +17,7 @@ textarea:focus, input:focus {
 
 .contact-send-button {
     margin-top: 4vh;
+    margin-bottom: 8vh;
     transition: ease-in-out, .15s ease-in-out;
 }
 
