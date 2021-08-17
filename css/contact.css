@@ -123,4 +123,8 @@ textarea:focus, input:focus {
     .contact-form-input {
         width: 75vw;
     }
+
+    .split {
+        padding-top: 8%;
+    }
 }

@@ -21,6 +21,10 @@
     }
 }
 
+.navbar-toggler {
+    margin-right: 15px;
+}
+
 .navbar {
     /*formerly #d14806*/
     background-color: #b33e17;
